@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D7055AAA218052C2006DF3CB /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = D7055AA9218052C2006DF3CB /* main.c */; };
+		D7055AB221819DDD006DF3CB /* list.c in Sources */ = {isa = PBXBuildFile; fileRef = D7055AB121819DDD006DF3CB /* list.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +27,7 @@
 		D7055AA6218052C1006DF3CB /* Link_List */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Link_List; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7055AA9218052C2006DF3CB /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		D7055AB0218052E9006DF3CB /* list.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = list.h; sourceTree = "<group>"; };
+		D7055AB121819DDD006DF3CB /* list.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = list.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				D7055AA9218052C2006DF3CB /* main.c */,
 				D7055AB0218052E9006DF3CB /* list.h */,
+				D7055AB121819DDD006DF3CB /* list.c */,
 			);
 			path = Link_List;
 			sourceTree = "<group>";
@@ -121,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7055AAA218052C2006DF3CB /* main.c in Sources */,
+				D7055AB221819DDD006DF3CB /* list.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
